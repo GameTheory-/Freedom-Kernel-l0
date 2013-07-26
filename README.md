@@ -1,4 +1,4 @@
-# Freedom Kernel
+# Freedom Kernel l0
 
-- 1.62ghz Overclock
+- 1.674ghz Overclock
 - Interactive Governor

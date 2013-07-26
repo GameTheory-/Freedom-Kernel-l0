@@ -1,6 +1,6 @@
 /*
  * Automatically generated C config: don't edit
- * Linux/arm 3.0.8-gametheory-l0 Kernel Configuration
+ * Linux/arm 3.0.8-gametheory-freedom-l0 Kernel Configuration
  */
 #define CONFIG_RING_BUFFER 1
 #define CONFIG_NF_CONNTRACK_H323 1
@@ -471,6 +471,7 @@
 #define CONFIG_EFI_PARTITION 1
 #define CONFIG_LOG_BUF_SHIFT 17
 #define CONFIG_EXTRA_FIRMWARE ""
+#define CONFIG_CPU_FREQ_GOV_INTERACTIVE 1
 #define CONFIG_VIRT_TO_BUS 1
 #define CONFIG_VFAT_FS 1
 #define CONFIG_MSM_KGSL_2D 1
