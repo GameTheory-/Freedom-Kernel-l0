@@ -590,6 +590,7 @@ deps_config := \
 	net/Kconfig \
 	kernel/power/Kconfig \
 	fs/Kconfig.binfmt \
+	gt/Kconfig \
 	drivers/cpuidle/Kconfig \
 	drivers/cpufreq/Kconfig.x86 \
 	drivers/cpufreq/Kconfig \
@@ -694,7 +695,7 @@ deps_config := \
 include/config/auto.conf: \
 	$(deps_config)
 
-ifneq "$(KERNELVERSION)" "3.0.8-gametheory-freedom-l0"
+ifneq "$(KERNELVERSION)" "3.0.8"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(ARCH)" "arm"

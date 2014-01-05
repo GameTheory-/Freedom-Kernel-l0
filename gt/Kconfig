@@ -1,0 +1,11 @@
+config GT_L2_OC
+	bool "1.5ghz L2 Boost Clock"
+	default n
+	help
+	  This will enable L2 boost clock.
+
+config GT_CPU_OC
+	bool "1.62ghz CPU Overclock"
+	default y
+	help
+	  This will enable CPU overclocking.

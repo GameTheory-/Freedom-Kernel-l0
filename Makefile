@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 0
 SUBLEVEL = 8
-EXTRAVERSION =-gametheory-freedom
+EXTRAVERSION =
 NAME = Sneaky Weasel
 
 # *DOCUMENTATION*
